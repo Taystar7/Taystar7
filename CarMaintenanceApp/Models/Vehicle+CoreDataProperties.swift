@@ -25,14 +25,6 @@ extension Vehicle {
     @NSManaged public var updatedAt: Date
     @NSManaged public var tasks: NSSet?
     
-    public var wrappedMake: String {
-        make 
-    }
-    
-    public var wrappedModel: String {
-        model 
-    }
-    
     public var displayName: String {
         "\(year) \(make) \(model)"
     }

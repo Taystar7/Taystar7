@@ -76,7 +76,6 @@ struct VehicleFormView: View {
     private func saveVehicle() {
         let vehicleToSave = vehicle ?? Vehicle(context: viewContext)
         
-        vehicleToSave.id = vehicleToSave.id 
         vehicleToSave.make = make
         vehicleToSave.model = model
         vehicleToSave.year = Int16(year)

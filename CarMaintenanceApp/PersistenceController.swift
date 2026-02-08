@@ -67,7 +67,8 @@ struct PersistenceController {
         vehicle.model = "Camry"
         vehicle.year = 2020
         vehicle.currentMileage = 45000
-        vehicle.imageURL = "https://example.com/car.jpg"
+        // TODO: Implement image display functionality
+        vehicle.imageURL = nil
         
         let task = MaintenanceTask(context: viewContext)
         task.id = UUID()
